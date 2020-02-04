@@ -48,17 +48,19 @@ table {
 }
 
 
-/* CSS added by me */
+body {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
     
 }
-.wrapper {
-    background-image: url(../images/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+ 
+
 h1 {
     font-size: 32px;
     font-weight: 600;
@@ -76,7 +78,7 @@ h1 {
     padding: 120px;
     margin: 32px 2%;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .no-gradient{
     background: #FF0248;
@@ -89,9 +91,10 @@ h1 {
 }
 .secondary-box{
     width: 80%;
+    height: 300px;
     margin: 40px 10%;
     padding: 120px 40%;
-    background:  linear-gradient(to right, rgba(272, 2, 72, 0.25), rgba(0, 0, 0, 0.25)), url("../images/pic04.jpg") 0 0 no-repeat   ;
+    background:  linear-gradient(to right, rgba(178, 3, 172, 0.25), rgba(0, 0, 0, 0.25)), url("../images/pic04.jpg") 0 0 no-repeat   ;
 	border-radius: 25px;
     background-size: 100% 100%;
     
