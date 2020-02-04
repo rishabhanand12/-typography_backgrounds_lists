@@ -1,0 +1,391 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.small-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.padding {
+    padding: 60px 0;
+}
+.header {
+    background-color: #323347;
+    padding: 40px 0;
+    
+}
+
+.logo a {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-list a {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.address-flex {
+    display: flex;
+
+}
+
+.hero {
+    background-color: #323347;
+   
+    background-image: url(../media/images/banner.svg);
+    background-size: cover;
+    padding: 120px 0;
+}
+
+
+.hero h2 {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0
+}
+
+.hero h3 {
+    color: #E96C77;
+    font-size: 24px;
+    margin: 20px 0 ;
+}
+
+.btn {
+    padding: 12px 24px;
+
+    
+    margin: 20px 0;
+   
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pink-btn {
+    background-color: #E96C77;
+    border: #E96C77;
+    color: #ffffff;
+}
+
+.transparent-btn {
+    color: #555555;
+    border: 1px solid #DDDDDD;
+    background-color: transparent;
+}
+
+
+.heading {
+    color: #555555;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.text {
+    color: #969696;
+}
+
+.contact, .secondary {
+    background-color: #F5F5F5;
+
+}
+.contact-form {
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+.col {
+    width: 31%;
+    background-color: #ffffff;
+    
+}
+
+.row .fas {
+    color: #ffffff;
+    font-size: 32px;
+    border-radius: 50%;
+    margin: 20px 0;
+    padding: 20px;
+    
+    background-image: linear-gradient(45deg, #D1616B 50%, #E96C77 50%);
+}
+.sub-heading {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #555555;
+}
+.sub-text {
+    width: 80%;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #B3B3B3;
+    
+}
+
+.columns {
+    background-color: #E96C77;
+    
+}
+.columns .heading, .columns .text {
+    color: #ffffff;
+
+}
+
+.col1 {
+    width: 48%;
+    background-color: #EC828C;
+    
+}
+
+.columns-text {
+    padding: 30px 0;
+}
+
+.columns-text .sub-heading {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #ffffff;
+
+}
+
+.columns-text .sub-text {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.columns-text .fas {
+    color: #ffffff;
+    font-size: 32px;
+    border-radius: 50%;
+    margin: 20px 0;
+    padding: 20px;
+    background-image: linear-gradient(45deg,#525360 50%, #5B5C6B 50%);
+}
+
+
+form {
+    width: 48% ;
+    padding: 0 1%;
+    margin: 20px 0;
+    
+}
+.contact-col {
+    width: 48%;
+    padding: 0 1%;
+    
+    
+}
+.contact-nav li {
+    margin-bottom: 20px;
+}
+
+.contact-nav a , .footer-nav address {
+    color: #818181;
+    
+    
+}
+
+.form-action {
+    background-color: transparent;
+    border: 1px solid #BBB7B3;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.contact .fas {
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #555555;
+    margin-right: 10px;
+    
+
+}
+.twitter  {
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 10px;
+    
+    margin-right: 10px;
+    background-color: #4EAFDB;
+    
+
+}
+
+.facebook {
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 10px;
+    
+    margin-right: 10px;
+    background-color: #456BC9;
+}
+.linkedin {
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 50%;
+    padding: 10px;
+    
+    margin-right: 10px;
+    background-color: #3492D9;
+}
+.footer {
+    background-color: #ECECEC;
+}
+
+.footer-nav .flex {
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.footer-list a{
+    color: #ADADAD;
+    padding: 0 20px;
+    
+}
+small {
+    color: #ADADAD;
+    margin: 20px 0;
+}
+
+.line {
+    border-bottom: 1px solid #DDDDDD;
+    margin: 5px 0;
+    width: 180px;
+}
+.line1 {
+    width: 150px;
+}
+.line2 {
+    width: 120px;
+}
+
+.col-lines {
+    justify-content: center;
+}
+.line-flex1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.line-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.col-small {
+    margin: 0 20px;
+}
+
+
+.contact-nav li {
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+.list-border {
+    border-bottom: 2px solid #dddddd;
+}
+.flex-contact {
+    display: flex;
+    flex-wrap: wrap;    
+    
+    
+}

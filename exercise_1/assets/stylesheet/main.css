@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+} 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1.5;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header {
+    background-color: #F86014;
+    color: #ffffff;
+    padding: 20px  0;
+}
+
+.padding {
+    padding: 40px 0;
+}
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.hero {
+    background-color: #D4CEA7;
+}
+.col {
+    width: 30%;
+    padding: 10px;
+    background-color: #005979;
+    color: #ffffff;
+    line-height: 1.7;
+    padding-left: 20px;
+    box-shadow: 10px 10px 5px  0 #555555;
+    
+}
+
+.fad {
+    color: #000000;
+}
+
+.ordered {
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding: 0 20px;
+}
+.sub-ordered {
+    padding: 0 30px;
+    list-style-type: decimal;
+    
+}
+.dot {
+    list-style-type: disc;
+    list-style-position: inside;
+    
+    
+    
+}
+.sub-dot {
+    padding: 0 20px;;
+}
+.tick {
+    list-style-position: inside;
+}
+.fas {
+    color: #000000;
+    margin-right: 10px;
+}
+.heading {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px ;
+}
+
+.text {
+    margin: 20px 0 20px 10px;
+    color: #5D7374;
+}
+
+.footer {
+    background-color: #252C22;
+}
